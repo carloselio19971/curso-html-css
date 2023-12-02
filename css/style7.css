@@ -1,0 +1,46 @@
+/* Hexadecimal Code */
+
+/* 0- 9 A-F */ 
+/* describir los colores */
+
+/* #000000 */
+/* rojo verde azul */
+
+/* 00 00 00 => ausencia de color */
+ /* ff ff ff => maximo valor */
+
+ /* 16 millones de codigos para representar colores */
+
+ h2{
+    color: #eba234;
+ }
+ img {
+    border-radius: 50px;
+    border-width: 3px;
+    width:200px;
+    border-style: solid;
+    /* 00ff00 */
+    border-color: #0ff0;
+ }
+
+ /* ff00ff */
+ a {
+    color:#f0f;  
+ }
+
+/* #000000 *  se puede escribir un por cada par 000
+ #fff   
+ #00ff00   #0f0
+ #0f0f  #0ff
+ #FFFFFF
+*/
+
+div {
+    /* 00ffff */
+    background-color: #0ff;
+}
+/* ff0000 */
+h2 {
+    color :#f00;
+}
+

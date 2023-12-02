@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- El elemento raiz html -->
+<html lang="es" >
+  <!-- Cabeza Son elemento que actuan atras de escenas incluye cualquier enlaces, archivos externos, personalizar el titulo de la pagina -->
+  <!-- Metados elementos que no vemos-->
+  <head>
+    <title>App de Gatos</title>
+    <!-- <style>
+      /* h2 es el selector que tipo de elemento */
+      /* propiedad y valor */
+      h2 {
+        color: red;
+      }
+      h3 {
+        color:green;
+      }
+      p {
+        color: purple;
+      }
+    </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Gemunu+Libre:wght@600&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style8.css">
+  </head>
+  <body>
+    <!-- <h1>Hola, Mundo</h1>
+    <h2>Hola, Mundo</h2>
+    <h3>Hola, Mundo</h3>
+    <h4>Hola, Mundo</h4>
+    <h5>Hola, Mundo</h5>
+    <h6>Hola, Mundo</h6> -->
+    <main>
+      <!-- stylo en linea -->
+      <!-- <h2 style="color: blue;">App Gatos</h2> -->
+      <h2 id="titulo-app-gatos">App de Gatos </h2>
+      
+      <h3>Imagenes de Gatos :</h3>
+      <!-- Todo:Agregar enlaces a imagenes de gatos -->
+      <!-- target el objetivo del enlace  por motivo de seguridad se coloca re="noopener noreferrer" para prevenir ataques -->
+      <p>Haz click aqui para ver mas <a href="#" rel="noopener noreferrer" target="_blank"> imagenes de gatos </a></p>
+      <!-- Contenido principal de la pagina -->
+      <!-- cierra automaticament -->
+      <!-- valor del artribuo rc src="source" origen  alt descripcion al alternativa o una falla de internet-->
+      <!--IMAGENES-->
+      <a href="#parrafo-1">Parrafo 1</a>
+      <a href="#parrafo-2">Parrafo 2</a>
+      <a href="#parrafo-3">Parrafo 3</a>
+      <a href="#parrafo-4">Parrafo 4</a>
+
+      <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" class="imagen-de-gatos bordes-redondeados"  alt="Un lindo gatito naranja recostado sobre su espalda"/></a>
+
+      <h3 id="parrafo-1">Parrafo 1</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <h3 id="parrafo-2">Parrafo 2</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+      <h3 id="parrafo-3">Parrafo 3</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <h3 id="parrafo-4">Parrafo 4</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <!-- Linea Horizontal horinzontal rule -->
+      <hr>
+      <!-- Lista No Ordenada -->
+<!-- DIVContenedor genericos para realizar estructurs complejas en una pagina web -->
+    <div class="contenedor-listas"> <!--DIV o contenedor que contiene la lista de gatos-->
+        <h3> Lista de Gatos</h3>
+          <!-- Texto se muestra en cursiva etique EM -->
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        
+        <ul id="lista-gatos-aman" >
+          <li>Menta gatuna</li>
+          <li>Apuntadores Laser</li>
+          <!-- Tachar un elemento etiqueta s -->
+          <li><s>Lasaña</s></li>
+        </ul>
+
+        <img src="img/lasana.jpg" class="bordes-redondeados lasana" alt="Lasaña" />
+         <!-- Lista ordenadas -->
+        <!-- Strong para indicar que textos son importantes -->
+         <p>Cosas que los gatos <strong>odian</strong>:</p>
+
+         <ol id="lista-gatos-odian">
+           <li>Tratamientos antipulgas</li>
+           <li>Truenos</li>
+           <li>Otros gatos</li>
+         </ol>
+        
+    </div>
+    <img src="img/gatos.jpeg" id="imagen-de-gatos" alt="imagenes-de-gatitos"  class="bordes-redondeados" class="imagen-de-gatos"/>
+
+       <!-- el artibuto value nos permite saber el valor que vamos a enviar al servidor cuando tenemos las respuestas del usuario-->
+       <!-- Fromulario -->
+       <!-- Action representala direccion del arcihov que va manejar estos datos el servidor -->
+       <form action="/enviar-respuesta">
+
+          <!-- Input tipo de radio -->
+          <!-- Label para poder seleccion tambien desde el texto -->
+          <!-- for conectar la opcion con la etiqueta -->
+           <!-- Grupo de Btones de radio  con el artributo name nos permite agregupar los inputs-->
+          
+           <!-- BOTONES DE RADIO -->
+            <!-- Checked nos permite marca una opcion por defnecto -->
+            <!-- valor seleccionado para el grupo es interior  -->
+          <label for="interior"><input id="interior" type="radio" name="interior-exterior" value="interior" checked> Interior</label>
+          <br><!--Nos permite realizar un salto de linea br  -->
+
+          <label for="exterior">
+            <input id="exterior" type="radio" name="interior-exterior" value="exterior"> Exterior
+          </label>
+          <br><!--Nos permite realizar un salto de linea br  -->
+          <!-- Input nos permite obtener datos del usuario -->
+          <!-- placeholder nos das una pista lo que vamos a llenar -->
+          <!-- Required hace obligatorio un campo -->
+
+          <!-- CASILLA DE VERIFICACIÓN -->
+          <!-- Checked nos permite marca una opcion por defnecto -->
+          <label for="carinoso">
+            <input id="carinoso" type="checkbox" name="personalidad" checked value="carinoso"> Cariñoso</label>
+            <br>
+          <label for="peresozo">
+            <input type="checkbox" id="peresozo" name="personalidad"  value="perezoso"> Perezoso 
+          </label>
+          <br>
+          <label for="energico">
+            <input type="checkbox" id="energico" name="personalidad" value="energico"> Enérgico
+          </label>
+          <br>
+
+          <!-- TEXTO Y BOTON DE ENVIAR -->
+          <input type="text" placeholder="URL de la foto de tu gato" required>
+          <br><!--Nos permite realizar un salto de linea br  -->
+          <button type="submit"> Enviar</button>
+       </form>
+    </main>
+    <!--PIE DE PAGINA-->
+    <!-- Etiqueta small hace el texto mas pequeño -->
+    <footer>
+      <p><small>Derechos de Autor -<a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>

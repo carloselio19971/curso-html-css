@@ -1,0 +1,84 @@
+/* aplicando el tamaño de fuente a 3 elementos
+p, 
+ul,
+ol {
+   font-size: 20px;
+}
+aplicar mas estilo al li
+li {
+   color:blue;
+   font-size: 15px;
+} 
+
+*/
+h2 {
+   font-family: 'Ephesis', cursive;
+   font-size:50px;
+}
+
+h3 {
+   font-family: 'Roboto', sans-serif;
+}
+
+a{
+   font-family: 'Gemunu Libre', sans-serif;
+}
+
+/* .imagen-de-gatos{
+   width: 100px;
+   border-width: 10px;
+   border-color:blue;
+   border-style: solid dashed dotted double; */
+   /* border-style: inset; */
+   /* border-style: ridge; */
+   /* border-style: double; */
+   /* border-style: dotted; */
+   /* border-style: groove; */
+   /* border-style: dashed; */
+   /* border-style: solid;
+
+   }
+   */
+.bordes-redondeados{
+      border-radius: 50%;
+
+}
+.lasana{
+   width: 200px;
+}
+/* div { */
+   /* background-color: blue; */
+   /* color:white; */
+/* } */
+.contenedor-listas{
+   background-color: silver;
+   color:teal;
+}
+#titulo-app-gatos{
+   font-size: 30px;
+   color:green;
+   font-family: 'Gemunu Libre', sans-serif;
+}
+#imagen-de-gatos{
+   border-radius: 50%;
+   border-width: 5px;
+   border-style: solid;
+   border-color: brown;
+}
+
+#lista-gatos-aman{
+font-size: 15px;
+color:blueviolet;
+}
+#lista-gatos-odian{
+font-size:18px;
+font-family: 'Roboto', sans-serif;
+}
+
+div {
+   background-color: crimson;
+}
+/* Aplicar estilos a todas las imagenes que tenga el atributo alt */
+img[alt]{
+   border-radius: 50%;
+}

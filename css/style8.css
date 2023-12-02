@@ -1,0 +1,18 @@
+/* colores rgb */ 
+/* vamos a expeficiar 3 numeros entre 0-255  */
+
+div {
+    background-color: rgb(0,255,255);
+}
+img{
+    width: 200px;
+    background-color: rgb(0,255,0);
+}
+h2 {
+    background-color: rgb(255,0,0);
+}
+
+a {
+    /* cuando especificamos transparecnaia es el cuarto componente alpha  */
+    color: rgba(255, 0, 76, 0.082);
+}

@@ -1,0 +1,46 @@
+.texto-azul{
+color:blue;
+}
+
+.texto-morado{
+color:purple;
+}
+
+a{
+ text-decoration: purple wavy underline;
+}
+
+.sin-subrayado{
+text-decoration: none;
+}
+
+#titulo{
+    color:purple;
+} 
+
+.texto-azul{
+    color:blue;
+}
+
+
+#enlace-principal{
+color:green;
+text-decoration: green wavy underline;
+} 
+.sin-subrayado{
+    color:blue;
+    text-decoration: none;
+}
+/* 
+etiqueta     1 
+clases       10
+id           100
+stylo inline 1000
+important    (infinito) */
+
+.texto-azul{
+color:blue;
+}
+#titulo{
+    color:black  !important;
+}

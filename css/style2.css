@@ -1,0 +1,41 @@
+div {
+    /* background-color: crimson; */
+    border-width:4px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+img {
+    margin:25px;
+    padding: 25px;
+    border-width:4px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+
+
+/* img { */
+/* Padding es la distancia entra la imagen y su borde interno */
+    
+    /* width: 200px; */
+    /*Padding  */
+    /* padding:20px 15px 5px 10px; */
+/* padding-top: 20px; */
+    /* padding-right: 15px; */
+    /* padding-left:10px; */
+    /* padding-bottom: 5px; */
+    /* background-color: yellow;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid; */
+/* margin separar un borde con otro borde separacion de una elementos */
+    /* margin-right: 15px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 5px;  */
+    /* margin-top:5px; */
+       /* margin : 20px 15px 10px 5px; }
+*/

@@ -1,0 +1,21 @@
+/* selector de atributo selecciona todas lasi magenes que tengan definido el atributo alt */
+img[alt]{
+    border-radius: 50%;
+}
+/* selecciona todos los elementos que tenga un atributo de radio */
+input[type="radio"]{
+
+    margin: 25px;
+}
+
+input[type="checkbox"]{
+    margin: 8px;
+}
+
+a[href="https://www.freecodecamp.org/"]{
+color:green;
+/* texto sin decoracion sin subraayado */
+text-decoration: none;
+/* peso de fuente negrita */
+font-weight: bold;
+}
